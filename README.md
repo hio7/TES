@@ -38,9 +38,9 @@ T1: 60 / T2: 60
 >#### Additional Notes:
 >- **Number of Participants:** The competition structure should be adapted based on the number of participants and the schedule. A full round-robin system should be implemented in the preliminary round if feasible.
 >- **Mixed Weapons Mode:**
->  -a.   In each round, participants can select different weapons from the range of weapons available. Each weapon should have an equal number of rounds in a match.
->  -b.   To improve the challenge of uncertainty, participants should submit weapon sequences before starting.
->  -c.   To refine the strategy of swordsmanship, it should be required for participants to submit weapon sequences for the first 1/2 or 埲 of the rounds. After that, they can choose their weapons for the remaining rounds with priority.
+>* a. In each round, participants can select different weapons from the range of weapons available. Each weapon should have an equal number of rounds in a match.
+>* b. To improve the challenge of uncertainty, participants should submit weapon sequences before starting.
+>* c. To refine the strategy of swordsmanship, it should be required for participants to submit weapon sequences for the first 1/2 or 埲 of the rounds. After that, they can choose their weapons for the remaining rounds with priority.
 
 
 ### Reward Methods:
