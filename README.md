@@ -25,8 +25,8 @@ T1: 60 / T2: 60
 - Draw: If no winner is determined within T1 seconds, the round is a draw(both 0).
 - Advancement: The first participant to score 4 points out of 6 rounds wins the match.
 - Possible Scores: 4/2, 4/1, 4/0.
-#### Additional Notes:
-- **Number of Participants:** The competition structure should be adapted based on the number of participants and the schedule. If feasible, a full round-robin system should be implemented in the preliminary round.
+>#### Additional Notes:
+>- **Number of Participants:** The competition structure should be adapted based on the number of participants and the schedule. A full round-robin system should be implemented in the preliminary round if feasible.
 
 #### Final Round: Bracket Elimination
 - Format: One-on-one matches in a round-based system.
