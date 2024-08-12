@@ -16,8 +16,9 @@ The purpose of the Technique Evaluation Swordsmanship Competition is to:
 - **Final Round:** Bracket elimination to determine winners.
   
 ### Evaluation Methods
-T1: 60 / T2: 60
-#### Preliminary Round: Round-Robin
+>* T1: 60 / T2: 60
+>* Turnament-Game-Match-Round
+#### Preliminary game: Round-Robin
 - Format: One-on-one matches in a round-based system.
 - Number of Rounds: R1 rounds.
 - Round Duration: Each round lasts T1 seconds, with continuous timing except for injuries, referee interruptions, and other exceptions.
@@ -26,7 +27,7 @@ T1: 60 / T2: 60
 - Advancement: The first participant to score 4 points out of 6 rounds wins the match.
 - Possible Scores: 4/2, 4/1, 4/0.
 
-#### Final Round: Bracket Elimination
+#### Final game: Bracket Elimination
 - Format: One-on-one matches in a round-based system.
 - Number of Rounds: R2 rounds.
 - Round Duration: Each round lasts T2 seconds, with continuous timing except for injuries, referee interruptions, and other exceptions.
