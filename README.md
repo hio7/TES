@@ -12,12 +12,13 @@ The purpose of the Technique Evaluation Swordsmanship Competition is to:
 
 ## Structure of Evaluation
 ### Evaluation Phases
-- **Preliminary Round:** Round-robin format for initial qualification.
-- **Final Round:** Bracket elimination to determine winners.
-  
+- **Preliminary Game:** Round-robin format for initial qualification.
+- **Final Game:** Bracket elimination to determine winners.
+>* Turnament-Game-Match-Round
+
 ### Evaluation Methods
 >* T1: 60 / T2: 60
->* Turnament-Game-Match-Round
+
 #### Preliminary game: Round-Robin
 - Format: One-on-one matches in a round-based system.
 - Number of Rounds: R1 rounds.
