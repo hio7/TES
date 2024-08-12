@@ -44,6 +44,10 @@ The purpose of the Technique Evaluation Swordsmanship Competition is to:
 >* a. In each round, participants can select different weapons from the range of weapons available. Each weapon should have an equal number of rounds in a match.
 >* b. To improve the challenge of uncertainty, participants should submit weapon sequences before starting.
 >* c. To refine the strategy of swordsmanship, it should be required for participants to submit weapon sequences for the first 1/2 or 1/3 of the rounds. After that, they can choose their weapons for the remaining rounds with priority.
+> 
+> **Rule sets in indiviual round,match or whole tournament:**
+>* 
+
 
 
 ### Reward Methods:
