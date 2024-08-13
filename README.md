@@ -47,6 +47,9 @@ The purpose of the Technique Evaluation Swordsmanship Competition is to:
 > 
 > **Rule sets in indiviual round,match or whole tournament:**
 >* 
+> **Match court management 
+>* a. No out of bounds penalty, Referee will call back to center without timeout.(like boxing ring)
+
 
 
 
