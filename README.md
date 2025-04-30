@@ -1,60 +1,120 @@
-# TES
-Technique Evaluation of Swordsmanship (TES) 
-
-Historical Arms Technique Evaluation (HATE) 
+# TES: Technique Evaluation of Swordsmanship
 
 ## Introduction
-The purpose of the Technique Evaluation Swordsmanship Competition is to:
 
-- **Learn Historical Techniques**: Allow participants to study and master historical swordsmanship techniques.
-- **Improve Physical Ability**: Enhance participants' physical fitness and swordsmanship skills through rigorous evaluation and practice.
-- **Develop Mental Strength**: Foster mental resilience and focus by challenging participants in competitive environments.
+**TES (Technique Evaluation of Swordsmanship)** is a competition system designed to promote historical martial arts training through structured combat. It emphasizes:
 
-## Structure of Evaluation
-### Evaluation Phases
-- **Preliminary Game:** Round-robin format for initial qualification.
-- **Final Game:** Bracket elimination to determine winners.
->* Turnament-Game-Match-Round
+- **Historical Learning**: Master traditional techniques from historical sources.
+- **Physical Development**: Improve strength, reflexes, and sword-handling ability.
+- **Mental Focus**: Cultivate strategic thinking and psychological endurance under pressure.
 
-### Evaluation Methods
->* T1: 60 / T2: 60
+---
 
-#### Preliminary game: Round-Robin
-- Format: One-on-one matches in a round-based system.
-- Number of Rounds: R1 rounds.
-- Round Duration: Each round lasts T1 seconds, with continuous timing except for injuries, referee interruptions, and other exceptions.
-- Scoring: Each round has only one point. Participants need to win the round to score a point.
-- Draw: If no winner is determined within T1 seconds, the round is a draw(both 0).
-- Advancement: The first participant to score 4 points out of 6 rounds wins the match.
-- Possible Scores: 4/2, 4/1, 4/0.
+## 1. Competition Structure
 
-#### Final game: Bracket Elimination
-- Format: One-on-one matches in a round-based system.
-- Number of Rounds: R2 rounds.
-- Round Duration: Each round lasts T2 seconds, with continuous timing except for injuries, referee interruptions, and other exceptions.
-- Scoring: Each round has only one point. Participants need to win the round to score a point.
-- Draw: If no winner is determined within T2 seconds, the round is a draw(both 0).
-- Advancement: The first participant to score 5 points out of 9 rounds wins the match.
-- Possible Scores: 5/4, 5/3, 5/2, 5/1, 5/0....
+### 1.1 Evaluation Phases
 
->#### Additional Notes:
-> **Number of Participants:** The competition structure should be adapted based on the number of participants and the schedule. A full round-robin system should be implemented in the preliminary round if feasible.
->
-> **Mixed Weapons Mode:**
->* a. In each round, participants can select different weapons from the range of weapons available. Each weapon should have an equal number of rounds in a match.
->* b. To improve the challenge of uncertainty, participants should submit weapon sequences before starting.
->* c. To refine the strategy of swordsmanship, it should be required for participants to submit weapon sequences for the first 1/2 or 1/3 of the rounds. After that, they can choose their weapons for the remaining rounds with priority.
-> 
-> **Rule sets in indiviual round,match or whole tournament:**
->* 
-> **Match court management**
->
->* a. No out of bounds penalty, Referee will call back to center without timeout.(like boxing ring)
+- **Preliminary Game**: Round-robin format for qualification.
+- **Final Game**: Bracket elimination format to determine the winner.
+- **Game hierarchy**: `Tournament > Game > Match > Round`
 
+---
 
+### 1.2 Round Format & Scoring
 
+#### **Preliminary Game**
 
-### Reward Methods:
-- **Most Wins:** The participant with the most victories in the elimination round wins.
-- **Least Penalty Points:** The participant with the fewest penalty points in the full round-robin wins.
-- **Highest Score:** The participant with the highest total score in the full round-robin wins.
+- **Rounds per Match**: 6
+- **Round Duration (T1)**: 60 seconds
+- **Scoring**:  
+  - One point per round  
+  - First to win 4 rounds wins the match  
+  - Draws occur if no valid hit within time
+- **Example Results**: 4–2, 4–1, 4–0
+
+#### **Final Game**
+
+- **Rounds per Match**: 9
+- **Round Duration (T2)**: 60 seconds
+- **Scoring**:  
+  - First to 5 wins  
+  - Draws scored 0–0  
+- **Example Results**: 5–4, 5–2, 5–0
+
+> **Timing**: Continuous, paused only for referee, injury, or equipment issues.
+
+---
+
+### 1.3 Mixed Weapons Mode
+
+- Participants may use different weapons in each round.
+- Each weapon must be used equally during a match.
+- Weapon orders must be pre-submitted.
+- Partial lock-in of weapons for first 1/2 or 1/3 of match rounds; open selection for remaining rounds.
+
+---
+
+### 1.4 Match Court Management
+
+- No out-of-bounds penalty.
+- Referee will call fighters back to center (like in boxing).
+
+---
+
+## 2. Scoring Symbols & Meaning
+
+| Symbol | Meaning |
+|:------:|:--------|
+| `10`   | Red ● scores a clean hit |
+| `01`   | White ◆ scores a clean hit |
+| `X`    | Double hit (both strike simultaneously) |
+| `T`    | Time-up, no hit scored |
+| `P.A`  | Penalty – intentional after-blow (second tempo); results in –1 point and –1 clean hit for the offender |
+
+- **Point**: All hits (including doubles)  
+- **Clean Hit**: Only single clear hits (`10`, `01`)  
+- **Penalty**: Deducts 1 point & 1 clean hit
+
+---
+
+## 3. Awards & Rankings
+
+- **Champion**:  
+  - Decided by most match wins in round-robin, or final winner in bracketed stage.
+
+- **Match Award**: Most match victories  
+- **Technical Award**: Most clean hits  
+- **Bravery Award**: Most total points scored  
+  > Tie-breaker matches (Sudden / Fortress) are not counted in Technical or Bravery Awards
+
+- **Master Title**: Awarded to any participant who wins all three awards  
+  > Earning two awards will also be noted and commended
+
+---
+
+## 4. Tie-breakers
+
+### Sudden Match
+- One extra 3-round match using standard rules.
+
+### Fortress Battle
+- Timed 3-minute continuous match
+- Rounds restart immediately
+- Most rounds won within time wins
+- Unfinished round on timeout is discarded
+
+---
+
+## 5. Appendix: Score Sheets
+
+### A. Standard Match Record (3 Rounds)
+
+```markdown
+| Round | Time | Score | ● Point Δ | ● Clean Hit Δ | ● Penalty Δ | ◆ Point Δ | ◆ Clean Hit Δ | ◆ Penalty Δ |
+|:-----:|:----:|:-----:|:---------:|:-------------:|:-----------:|:---------:|:-------------:|:-----------:|
+| 1     |      |       |           |               |             |           |               |             |
+| 2     |      |       |           |               |             |           |               |             |
+| 3     |      |       |           |               |             |           |               |             |
+**Match Winner:** _____________
+**Red ● Signature:** _____________
+**White ◆ Signature:** _____________
