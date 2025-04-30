@@ -33,7 +33,7 @@
 - Draw if no hit within time (`T`)
 - Examples: `7–6`, `7–4`, `7–0`
 
-#### Final Game
+#### Final Games
 
 - Format: **Best of 3 Matches**
 - Each Match consists of **3 Rounds**
