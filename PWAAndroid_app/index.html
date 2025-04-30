@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Match Scoring Tool</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#1976d2">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="icon-192.png">
+</head>
+<body>
+  <h1>Match Scoring Tool</h1>
+  <table>
+    <thead>
+      <tr>
+        <th>Round</th>
+        <th>Red Points</th>
+        <th>Red Clean Hits</th>
+        <th>Red Penalties</th>
+        <th>White Points</th>
+        <th>White Clean Hits</th>
+        <th>White Penalties</th>
+      </tr>
+    </thead>
+    <tbody id="scoreTable"></tbody>
+  </table>
+
+  <button onclick="calculateWinner()">計算勝者</button>
+  <button onclick="addMatch()">新增比賽</button>
+  <button onclick="exportCSV()">匯出 CSV</button>
+
+  <div class="winner" id="result">Match 1 Winner: ____________________</div>
+
+  <h2>比賽記錄</h2>
+  <ul id="matchList"></ul>
+
+  <script src="script.js"></script>
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('service-worker.js')
+        .then(() => console.log("Service Worker Registered"));
+    }
+  </script>
+</body>
+</html>
