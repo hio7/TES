@@ -35,10 +35,11 @@
 
 #### Final Game
 
-- Format: Best of 3 matches  
-- Each match uses First-to-7 format (as above)
-- Player who wins **2 matches** is the final winner
-- If tied 0–0 or 1–1: proceed to **Fortress Battle**
+- Format: **Best of 3 Matches**
+- Each Match consists of **3 Rounds**
+- Each Round is played for **1 decisive point** 
+- The player who wins **2 Matches**, or leads **1–0 with 2 draws**, is declared the Final Winner
+- If both players win 1 Match and the third is a draw, a **Fortress Battle** will be used to determine the winner
 
 #### Fortress Battle (Tie-breaker)
 
