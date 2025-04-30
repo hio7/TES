@@ -1,120 +1,130 @@
 # TES: Technique Evaluation of Swordsmanship
 
-## Introduction
-
-**TES (Technique Evaluation of Swordsmanship)** is a competition system designed to promote historical martial arts training through structured combat. It emphasizes:
-
-- **Historical Learning**: Master traditional techniques from historical sources.
-- **Physical Development**: Improve strength, reflexes, and sword-handling ability.
-- **Mental Focus**: Cultivate strategic thinking and psychological endurance under pressure.
+**TES** (Technique Evaluation of Swordsmanship) is a structured historical martial arts competition format focused on evaluating combat technique, mental resilience, and strategic adaptability.
 
 ---
 
-## 1. Competition Structure
+## 📜 Purpose
 
-### 1.1 Evaluation Phases
-
-- **Preliminary Game**: Round-robin format for qualification.
-- **Final Game**: Bracket elimination format to determine the winner.
-- **Game hierarchy**: `Tournament > Game > Match > Round`
+- **Historical Learning**: Reconstruct and apply traditional swordsmanship from historical sources.
+- **Physical Development**: Enhance agility, strength, and fighting capability through rigorous matches.
+- **Mental Focus**: Cultivate strategic thinking and discipline under time-constrained pressure.
 
 ---
 
-### 1.2 Round Format & Scoring
+## 🏩️ Competition Structure
 
-#### **Preliminary Game**
+### 🎯 Phases
 
-- **Rounds per Match**: 6
-- **Round Duration (T1)**: 60 seconds
-- **Scoring**:  
-  - One point per round  
-  - First to win 4 rounds wins the match  
-  - Draws occur if no valid hit within time
-- **Example Results**: 4–2, 4–1, 4–0
-
-#### **Final Game**
-
-- **Rounds per Match**: 9
-- **Round Duration (T2)**: 60 seconds
-- **Scoring**:  
-  - First to 5 wins  
-  - Draws scored 0–0  
-- **Example Results**: 5–4, 5–2, 5–0
-
-> **Timing**: Continuous, paused only for referee, injury, or equipment issues.
+- **Preliminary Game** – Round-robin system  
+- **Final Game** – Bracket-based elimination  
+- **Hierarchy**: `Tournament > Game > Match > Round`
 
 ---
 
-### 1.3 Mixed Weapons Mode
+### ⚔️ Match Formats
 
-- Participants may use different weapons in each round.
-- Each weapon must be used equally during a match.
-- Weapon orders must be pre-submitted.
-- Partial lock-in of weapons for first 1/2 or 1/3 of match rounds; open selection for remaining rounds.
+#### Preliminary Game
+
+- Format: First to 7 rounds (Best of 13)
+- Each round lasts **60 seconds**
+- Win a round to gain 1 point
+- First to **7 points** wins the match
+- Draw if no hit within time (`T`)
+- Examples: `7–6`, `7–4`, `7–0`
+
+#### Final Game
+
+- Format: Best of 3 matches  
+- Each match uses First-to-7 format (as above)
+- Player who wins **2 matches** is the final winner
+- If tied 0–0 or 1–1: proceed to **Fortress Battle**
+
+#### Fortress Battle (Tie-breaker)
+
+- Duration: **3 minutes continuous**
+- Rounds restart immediately
+- Fighter with most round wins in time limit is the winner
 
 ---
 
-### 1.4 Match Court Management
+### 🛡️ Mixed Weapons Mode
+To reflect the diversity of historical combat and challenge participants' adaptability, TES allows multiple weapons to be used strategically within a match.
 
-- No out-of-bounds penalty.
-- Referee will call fighters back to center (like in boxing).
-
+- Players must submit a pre-determined sequence of weapons before the match begins.
+- Each weapon must be used an equal number of times across the match.
+- During the first 1/2 or 1/3 of the game, players must follow their submitted sequence.
+- For the remaining rounds, players may choose freely, but must follow a predetermined priority or rotation rule to avoid repetition or abuse.
+(This portion remains hidden from the opponent and is intended to test adaptability and enhance the entertainment value of the match.
+)
 ---
 
-## 2. Scoring Symbols & Meaning
+### 🧽 Court Rules
+
+- No out-of-bounds penalty
+- TBD
+---
+
+## 🧾 Scoring System
 
 | Symbol | Meaning |
 |:------:|:--------|
 | `10`   | Red ● scores a clean hit |
 | `01`   | White ◆ scores a clean hit |
-| `X`    | Double hit (both strike simultaneously) |
-| `T`    | Time-up, no hit scored |
-| `P.A`  | Penalty – intentional after-blow (second tempo); results in –1 point and –1 clean hit for the offender |
+| `X`    | Double hit (both hit simultaneously) |
+| `T`    | Time-up with no hit |
+| `P.A`  | Intentional after-blow; offender receives –1 Point and –1 Clean Hit |
 
-- **Point**: All hits (including doubles)  
-- **Clean Hit**: Only single clear hits (`10`, `01`)  
-- **Penalty**: Deducts 1 point & 1 clean hit
-
----
-
-## 3. Awards & Rankings
-
-- **Champion**:  
-  - Decided by most match wins in round-robin, or final winner in bracketed stage.
-
-- **Match Award**: Most match victories  
-- **Technical Award**: Most clean hits  
-- **Bravery Award**: Most total points scored  
-  > Tie-breaker matches (Sudden / Fortress) are not counted in Technical or Bravery Awards
-
-- **Master Title**: Awarded to any participant who wins all three awards  
-  > Earning two awards will also be noted and commended
+- **Point**: All strikes (including double hits)
+- **Clean Hit**: Awarded only on `10` or `01`
+- **Penalty**: Affects Point and Clean Hit count, but **not match result**
 
 ---
 
-## 4. Tie-breakers
+## 🏅 Awards
 
-### Sudden Match
-- One extra 3-round match using standard rules.
+| Award            | Description |
+|------------------|-------------|
+| **Match Award**  | Most matches won (Prelims + Elims) |
+| **Technical Award** | Most Clean Hits (Prelims) |
+| **Bravery Award**   | Most Points Scored (Prelims) |
 
-### Fortress Battle
-- Timed 3-minute continuous match
-- Rounds restart immediately
-- Most rounds won within time wins
-- Unfinished round on timeout is discarded
+> Tie-breaker rounds do **not** count toward Technical or Bravery Awards.
+
+### 👑 Master Title
+
+Granted to any competitor who earns **all 3 awards**  
+Participants earning **2 out of 3** are also honored as distinguished fighters.
 
 ---
 
-## 5. Appendix: Score Sheets
+## 📂 Files & Formats
 
-### A. Standard Match Record (3 Rounds)
+📄 Rulebook:  
+- [`/docs/rules/TES_rulebook_en.md`](docs/rules/TES_rulebook_en.md)
 
-```markdown
-| Round | Time | Score | ● Point Δ | ● Clean Hit Δ | ● Penalty Δ | ◆ Point Δ | ◆ Clean Hit Δ | ◆ Penalty Δ |
-|:-----:|:----:|:-----:|:---------:|:-------------:|:-----------:|:---------:|:-------------:|:-----------:|
-| 1     |      |       |           |               |             |           |               |             |
-| 2     |      |       |           |               |             |           |               |             |
-| 3     |      |       |           |               |             |           |               |             |
-**Match Winner:** _____________
-**Red ● Signature:** _____________
-**White ◆ Signature:** _____________
+📄 Score Sheets:  
+- [`/formats/TES_standard_match.md`](formats/TES_standard_match.md)  
+- [`/formats/TES_first_to_7.md`](formats/TES_first_to_7.md)  
+- [`/formats/TES_fortress_battle.md`](formats/TES_fortress_battle.md)
+
+📊 Results:  
+- [`/results/`](results/)
+
+---
+
+## 🪪 License
+
+This project is licensed under the **Creative Commons Attribution 4.0 International (CC BY 4.0)**.  
+You are free to share and adapt with **credit attribution required**.  
+See [`LICENSE`](LICENSE) for details.
+
+---
+
+## 🤝 Contributing
+
+We welcome community support and suggestions!  
+See [`CONTRIBUTING.md`](CONTRIBUTING.md) to learn how to get involved.
+
+---
+
