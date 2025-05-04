@@ -26,12 +26,12 @@
 
 #### Preliminary Game
 
-- Format: First to 7 rounds (Best of 13)
+- Format: First to 5 rounds (Best of 9)
 - Each round lasts **60 seconds**
 - Win a round to gain 1 point
-- First to **7 points** wins the match
+- First to **5 points** wins the match
 - Draw if no hit within time (`T`)
-- Examples: `7–6`, `7–4`, `7–0`
+- Examples: `5-4`, `5-3`,..., `5-0`. 
 
 #### Final Games
 
