@@ -91,10 +91,9 @@ TES adopts a **Priority system** to resolve simultaneous exchanges and add strat
 - Because Final Games consist of **multiple Matches**, Priority is assigned per **Match** (not Round).
 - The fighter with Priority in a Match will win the round in case of a double hit.
 - Priority alternates between Matches:
-  - **Game 1**: Assigned by **coin toss**(Red got priority)
-  - **Game 1**: White starts with Priority
-  - **Game 2**: Red starts with Priority
-
+  - **Game 1**: Assigned by **coin toss** (e.g., Red gets priority)
+  - **Game 2**: Priority switches to the other fighter
+  - **Game 3**: Assigned by coin toss or agreed method
 - Optionally, organizers may adopt **Round-by-Round Priority change** for added variety, provided both players alternate evenly.
 
 ---
