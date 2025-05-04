@@ -74,7 +74,6 @@ TES adopts a **Priority system** to resolve simultaneous exchanges and add strat
 
 - In the event of a double hit (`X`), **only the fighter with Priority** will be awarded the round.
 - A fighter **without Priority** must land a clean hit without receiving one in return to win the round.
-- A clean hit by a non-priority fighter during a double hit does **not** score, but may transfer priority or continue the round based on referee discretion.
 
 ---
 
@@ -92,9 +91,10 @@ TES adopts a **Priority system** to resolve simultaneous exchanges and add strat
 - Because Final Games consist of **multiple Matches**, Priority is assigned per **Match** (not Round).
 - The fighter with Priority in a Match will win the round in case of a double hit.
 - Priority alternates between Matches:
-  - **Game 1**: Red starts with Priority
-  - **Game 2**: White starts with Priority
-  - **Game 3**: Assigned by **coin toss**
+  - **Game 1**: Assigned by **coin toss**(Red got priority)
+  - **Game 1**: White starts with Priority
+  - **Game 2**: Red starts with Priority
+
 - Optionally, organizers may adopt **Round-by-Round Priority change** for added variety, provided both players alternate evenly.
 
 ---
