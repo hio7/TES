@@ -66,6 +66,44 @@ To reflect the diversity of historical combat and challenge participants' adapta
 - TBD
 ---
 
+### 🧭 Priority Rules
+
+TES adopts a **Priority system** to resolve simultaneous exchanges and add strategic depth to the single-hit Round format.
+
+#### How Priority Works
+
+- In the event of a double hit (`X`), **only the fighter with Priority** will be awarded the round.
+- A fighter **without Priority** must land a clean hit without receiving one in return to win the round.
+- A clean hit by a non-priority fighter during a double hit does **not** score, but may transfer priority or continue the round based on referee discretion.
+
+---
+
+#### Priority in Preliminary Games
+
+- Priority is assigned by a **coin toss** at the start of the match.
+- Priority alternates **each round**, ensuring fairness.
+- Optional: Priority may alternate every **two rounds**, but must not exceed imbalance (e.g., not 3 rounds in a row with the same priority).
+- This system ensures that in a race-to-5 match, both players get equitable opportunities to hold Priority.
+
+---
+
+#### Priority in Final Games
+
+- Because Final Games consist of **multiple Matches**, Priority is assigned per **Match** (not Round).
+- The fighter with Priority in a Match will win the round in case of a double hit.
+- Priority alternates between Matches:
+  - **Game 1**: Red starts with Priority
+  - **Game 2**: White starts with Priority
+  - **Game 3**: Assigned by **coin toss**
+- Optionally, organizers may adopt **Round-by-Round Priority change** for added variety, provided both players alternate evenly.
+
+---
+
+Priority encourages cleaner initiative and precise timing, preventing excessive simultaneous hits and rewarding tactical superiority.
+- 
+---
+
+
 ## 🧾 Scoring System
 
 | Symbol | Meaning |
